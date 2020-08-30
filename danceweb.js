@@ -6,5 +6,5 @@ setInterval(function()				       //Make them dance!
   {
     b[i].style.transform = "rotate(" + a + "deg)";     //Setting the css property to rotate
   }
-  a += 1;					       //Incrementing the angle 
+  a = Math.floor(Math.random() * 361);                 //Setting random angle for effect 
 }, 20);						       //Makes webpage dance endlessly
