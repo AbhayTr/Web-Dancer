@@ -1,6 +1,6 @@
 a = 0; 						       			//Angle to rotate in degrees.
 c = document.querySelectorAll('p,div,li,table,tr,td,span,body,a');	//List of all elements which will be turned into disco lights!
-arr = "abcdefghijklmnopqrstuvwxyz1234567890"				//Required for generating random colors for disco light elements!
+arr = "abcdefghijklmnopqrstuvwxyz1234567890";				//Required for generating random colors for disco light elements!
 b = document.getElementsByTagName("div");	       			//List of all <div> tag elements (The dancing elements)!
 
 setInterval(function()				       			//Makes the webpage dance!
